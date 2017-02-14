@@ -7,7 +7,7 @@ import { FallbackRoute } from './shared/fallback-route';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'cards', component: CardsComponent },
+  { path: 'cards/:type', component: CardsComponent },
   FallbackRoute
 ];
 
