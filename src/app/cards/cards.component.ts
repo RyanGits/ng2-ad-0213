@@ -11,6 +11,7 @@ export class CardsComponent implements OnInit {
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
+    console.log(this.router.url);
   }
 
 }
